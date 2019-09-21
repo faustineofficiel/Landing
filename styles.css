@@ -1,0 +1,118 @@
+body {
+	margin:0;
+	background:rgb(200,200,200);
+	color:#393E46;
+	font-family: Montserrat,sans-serif;
+	font-size: 18px;
+	font-weight: lighter;
+}
+
+h1,h2,h3{
+	font-family: Montserrat,sans-serif;
+	font-weight: bold;
+}
+
+h1 {
+ 	font-size:40px;
+}
+
+h2{
+	font-size: 30px;
+ 	color: #6A71E1;
+}
+
+p{
+	font-family: Montserrat,sans-serif;
+	font-size: 15px;
+}
+
+a{
+	color: #6A71E1;
+	text-decoration: none;
+}
+
+a:hover{
+	color:#393E46;
+}
+
+.banner{
+	text-align: center;
+	padding:120px 0px;
+	color: white;
+	background: #EEEEEE;
+	background position: center;
+	background-size: cover;
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%), url("https://picsum.photos/1000/600?random");
+}
+
+.banner h1 {
+	font-size: 70px;
+
+}
+
+.banner p{
+	opacity: 0.7;
+	font-size: 18px;
+	margin-bottom: 40px;
+}
+
+.btn-blue {
+	color: white;
+	background: #6A71E1;
+	box-shadow: 0 4px 6px rgba(50,50,93,.11);
+	border-radius: 4px;
+	padding: 20px 30px;
+	display:inline-block;
+}
+
+.btn-blue a{
+	color:white;
+}
+
+.btn-blue:hover {
+	background: #EEEEEE;
+	color: white;
+}
+
+.card-white {
+	background-color: white;
+	border-radius:10px;
+	text-align: center;
+	box-shadow: 0 4px 6px rgba(50,50,93,.11);
+	padding:10px;
+	margin:15px 0px;
+}
+
+.card-white img{
+	margin-top: 5px;
+	margin-bottom:10px;
+}
+
+.footer{
+	background-color:#00adb5;
+	color:white;
+	text-align: center;
+}
+
+.footer a{
+	color:white;
+	font-size:40px;
+	list-style: none;
+	padding:0px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.list-inline ul{
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding:10px 8px;
+}
